@@ -1,0 +1,11 @@
+version: '3'
+services:
+  tools:
+    image: test-lableimg
+    environment:
+      - DISPLAY=$DISPLAY
+    # restart: always
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./shared:/labelimg
+    network_mode: host
