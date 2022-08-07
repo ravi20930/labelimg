@@ -1,0 +1,1 @@
+docker login required before running the application
