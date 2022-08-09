@@ -1,7 +1,7 @@
 version: '3'
 services:
   tools:
-    image: ravi20930/lableimg:v1
+    image: ravi20930/labelimg:v1
     environment:
       - DISPLAY=$DISPLAY
     # restart: always
