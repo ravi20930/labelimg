@@ -1,1 +1,1 @@
-docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v {$PWD}/shared:/lableimg -e DISPLAY=:0 ravi20930/labelimg:v1 labelImg
+docker run -v /tmp/.X11-unix:/tmp/.X11-unix -v $PWD/shared:/lableimg -e DISPLAY=:0 ravi20930/labelimg:v1 labelImg
