@@ -7,5 +7,5 @@ services:
     # restart: always
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./shared:/labelimg
+      - ./shared:/lableimg
     network_mode: host

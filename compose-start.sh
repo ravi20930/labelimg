@@ -1,0 +1,1 @@
+docker-compose -f deb-compose.yaml up
